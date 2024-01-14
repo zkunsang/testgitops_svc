@@ -8,6 +8,5 @@ spec:
       name: http
   selector:
     app: guestbook-ui
-  externalTrafficPolicy: Cluster
   sessionAffinity: None
   type: ClusterIP
