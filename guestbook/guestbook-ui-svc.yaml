@@ -10,4 +10,4 @@ spec:
     app: guestbook-ui
   externalTrafficPolicy: Cluster
   sessionAffinity: None
-  type: LoadBalancer
+  type: ClusterIP
